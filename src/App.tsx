@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
+import ButtonAppBar from './Drawer/Menu/index';
+import withAppProviders from "./withAppProviders";
+import { Box } from '@mui/material';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">        
-      </header>
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <Box data-testid="pos-ui-app">
+    <Box>
+      <ButtonAppBar>
+      </ButtonAppBar>
+    </Box>
+  </Box>
+);
 
-export default App;
+export default withAppProviders(App);
