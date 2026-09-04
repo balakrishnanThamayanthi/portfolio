@@ -1,5 +1,4 @@
-import { paletteDark, paletteLight } from "./palette"; 
-import { typography } from "./typography";
+import { paletteDark, paletteLight } from "./palette";
 import React, { createContext } from "react";
 import { createTheme } from "@mui/material/styles";
 
@@ -11,7 +10,20 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 const themeLight = createTheme({
   palette: paletteLight,
-  typography,
+  typography: {
+    fontFamily: [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      '"Segoe UI"',
+      "Roboto",
+      '"Helvetica Neue"',
+      "Arial",
+      "sans-serif",
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(","),
+  },
   components: {
     MuiAppBar: {
       defaultProps: {
@@ -30,7 +42,20 @@ const themeLight = createTheme({
 
 const themeDark = createTheme({
   palette: paletteDark,
-  typography,
+  typography: {
+    fontFamily: [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      '"Segoe UI"',
+      "Roboto",
+      '"Helvetica Neue"',
+      "Arial",
+      "sans-serif",
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(","),
+  },
   components: {
     MuiAppBar: {
       defaultProps: {

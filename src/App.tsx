@@ -3,13 +3,16 @@ import './App.css';
 import ButtonAppBar from './Drawer/Menu/index';
 import withAppProviders from "./withAppProviders";
 import { Box } from '@mui/material';
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./Drawer/Router/Routes";
 
 const App: React.FC = () => (
-  <Box data-testid="pos-ui-app">
-    <Box>
+  <Box>
+    <BrowserRouter>
       <ButtonAppBar>
+        <AppRoutes />
       </ButtonAppBar>
-    </Box>
+    </BrowserRouter>
   </Box>
 );
 

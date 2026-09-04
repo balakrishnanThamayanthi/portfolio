@@ -1,7 +1,6 @@
-import { appColors } from "./appcolors";
 
 export const typography = {
-  fontFamily: 'var(--bs-font-primary, "Hanken Grotesk", sans-serif)',
+  fontFamily: 'var(--bs-font-primary, "Geist", sans-serif)',
   h1: {
     fontSize: "calc(1.35rem + 1.2vw)",
     fontWeight: 600,
