@@ -25,3 +25,36 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes profile-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-reveal {
+  animation: profile-reveal 1000ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.profile-reveal-heading {
+  animation-delay: 60ms;
+}
+
+.profile-reveal-image {
+  animation-delay: 100ms;
+}
+
+.profile-reveal-role {
+  animation-delay: 200ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-reveal {
+    animation: none;
+  }
+}

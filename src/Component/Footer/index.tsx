@@ -52,7 +52,7 @@ export default function Footer() {
                 spacing={4}
                 sx={{ alignItems: 'flex-start', p: 3, mb: 2 }}
             >
-                <Grid size={{ lg: 6, md: 6, sm: 12, xs: 12 }}>
+                <Grid size={{ lg: 6, md: 12, sm: 12, xs: 12 }}>
                     <Typography variant="h6" sx={{ color: 'white', fontWeight: 600, fontSize: '18px', fontFamily: "Geist", }}>
                         Balakrishnan Thamayanthi
                     </Typography>
@@ -155,6 +155,7 @@ export default function Footer() {
                     " The biggest risk is not taking any risk. "
                 </Typography>
             </Grid>
+            
             <Grid
                 container
                 sx={{

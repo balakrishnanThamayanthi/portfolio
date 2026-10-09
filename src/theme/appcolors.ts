@@ -28,6 +28,8 @@ export const appColors: AppColor = {
 
     toolbar: "#f3f3f3",
     toolbartext: "#374151",
+
+    profileHeding:  "#4e555f",
   },
   darkThemeColor: {
     primarymain: "#298076",
@@ -47,5 +49,7 @@ export const appColors: AppColor = {
 
     toolbar: "#f3f3f3",
     toolbartext: "#374151",
+    profileHeding:  "#4e555f",
+
   },
 };
