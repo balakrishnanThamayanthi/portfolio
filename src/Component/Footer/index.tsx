@@ -40,7 +40,7 @@ export default function Footer() {
             component="footer"
             sx={{
                 width: '100%',
-                p: 3,
+                p: { xs: 1, sm: 2, md: 4 },
                 mt: 4,
                 borderTop: `1px solid ${theme.palette.divider}`,
                 backgroundColor: "#111827",

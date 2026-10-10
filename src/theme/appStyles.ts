@@ -122,6 +122,13 @@ export const useStyles = makeStyles((theme: Theme) => ({
     textAlign: "center",
     lineHeight: 1.2,
   },
+  h2blackcolorHeadiing: {
+    fontSize: "48px",
+    fontWeight: 700,
+    color: "#111827",
+    mb: 6,
+    textAlign: "center",
+  },
   aiProductCard: {
     background: "#ffffff",
     padding: "32px",

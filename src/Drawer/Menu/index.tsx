@@ -201,15 +201,14 @@ export default function ButtonAppBar({ children }: ButtonAppBarProps) {
         component="main"
         sx={{
           flexGrow: 1,
-          // p: isMobile ? 1 : 3,
           width: "100%",
           backgroundColor: theme.palette.background.default,
         }}
       >
         <PaddingBody />
         {children}
-        <Footer />
       </Box>
+      <Footer />
     </Box>
   );
 }

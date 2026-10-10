@@ -47,3 +47,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/styles
+npm install react-icons
