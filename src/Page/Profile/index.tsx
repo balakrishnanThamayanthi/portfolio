@@ -6,6 +6,7 @@ import thamayanthiImage from '../../Images/thamayanthi.png';
 import DownloadIcon from "@mui/icons-material/Download";
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import Contact from '../Contact/index';
 // import { Link } from "react-router-dom";
 // import { FaReact } from "react-icons/fa";
 // import { FaNodeJs } from "react-icons/fa";
@@ -148,7 +149,7 @@ const Profile: React.FC = () => {
 
         <Grid
           size={{ lg: 12, md: 12, sm: 12, xs: 12 }}
-          sx={{ textAlign: "center", mt: 4, mb: 2 }}
+          sx={{ textAlign: "center", mt: 4, mb: 4 }}
           className={`${classes.profileHeading} profile-reveal profile-reveal-heading`}
         >
           <Grid container spacing={1} >
@@ -231,7 +232,6 @@ const Profile: React.FC = () => {
                 Download Resume
               </Button>
             </Grid>
-
             <Grid
               container
               size={{ xs: 12 }}
@@ -384,7 +384,6 @@ const Profile: React.FC = () => {
                 </Grid>
               ))}
             </Grid>
-
           </Grid>
         </Grid>
 
@@ -527,7 +526,7 @@ const Profile: React.FC = () => {
 
         <Grid
           size={{ lg: 12, md: 12, sm: 12, xs: 12 }}
-          sx={{ textAlign: "center", mt: 4, mb: 2 }}
+          sx={{ textAlign: "center", mt: 6, mb: 2 }}
           className={`${classes.profileHeading} profile-reveal profile-reveal-heading`}
         >
 
@@ -606,7 +605,7 @@ const Profile: React.FC = () => {
 
         <Grid
           size={{ lg: 12, md: 12, sm: 12, xs: 12 }}
-          sx={{ textAlign: "center", mt: 4, mb: 2, backgroundColor: "#f1f6ff" }}
+          sx={{ textAlign: "center", backgroundColor: "#f1f6ff" }}
           className={`${classes.profileHeading} profile-reveal profile-reveal-heading`}
         >
 
@@ -769,6 +768,14 @@ const Profile: React.FC = () => {
               </Grid>
             </Grid>
           </Grid>
+        </Grid>
+
+        <Grid
+          size={{ lg: 12, md: 12, sm: 12, xs: 12 }}
+          sx={{ textAlign: "center", background: "linear-gradient(180deg, #faf5ff 0%, #eff6ff 100%)", }}
+          className={`${classes.profileHeading} profile-reveal profile-reveal-heading`}
+        >
+          <Contact />
         </Grid>
 
       </Grid>

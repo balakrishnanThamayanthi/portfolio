@@ -41,7 +41,7 @@ export default function Footer() {
             sx={{
                 width: '100%',
                 p: { xs: 1, sm: 2, md: 4 },
-                mt: 4,
+                pt: 4,
                 borderTop: `1px solid ${theme.palette.divider}`,
                 backgroundColor: "#111827",
                 color: theme.palette.text.secondary,
@@ -155,7 +155,7 @@ export default function Footer() {
                     " The biggest risk is not taking any risk. "
                 </Typography>
             </Grid>
-            
+
             <Grid
                 container
                 sx={{

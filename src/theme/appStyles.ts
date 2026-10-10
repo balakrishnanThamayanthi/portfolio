@@ -210,4 +210,41 @@ export const useStyles = makeStyles((theme: Theme) => ({
       transform: "scale(0.98)",
     },
   },
+  contactSubHeading: {
+    fontSize: "16px",
+    fontWeight: 500,
+  },
+
+  textfieldprop: {
+    marginTop: "3px",
+    "& .MuiOutlinedInput-root": {
+      borderRadius: "8px",
+      backgroundColor: "#ffffff",
+      transition: "all 0.3s ease",
+
+      "& fieldset": {
+        borderColor: "#d1d5db",
+      },
+
+      "&:hover fieldset": {
+        borderColor: "#a855f7",
+        borderWidth: "3px",
+      },
+
+      "&.Mui-focused fieldset": {
+        borderColor: "#9333ea",
+        borderWidth: "3px",
+      },
+
+      "&.Mui-focused": {
+        // boxShadow: "0 0 0 3px rgba(147, 51, 234, 0.12)",
+      },
+    },
+
+    "& .MuiOutlinedInput-input": {
+      padding: "12px 14px",
+      fontSize: "15px",
+      color: "#374151",
+    },
+  },
 }));
