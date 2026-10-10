@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ab5a98b1.css",
-    "main.js": "/portfolio/static/js/main.a6078a36.js",
+    "main.js": "/portfolio/static/js/main.2fe375ab.js",
     "static/js/453.0b72f93f.chunk.js": "/portfolio/static/js/453.0b72f93f.chunk.js",
     "static/media/thamayanthi.png": "/portfolio/static/media/thamayanthi.8cbb214215cfe052e058.png",
     "static/media/tobiglogo.png": "/portfolio/static/media/tobiglogo.241ec1362c7b97ac7e11.png",
     "index.html": "/portfolio/index.html",
     "main.ab5a98b1.css.map": "/portfolio/static/css/main.ab5a98b1.css.map",
-    "main.a6078a36.js.map": "/portfolio/static/js/main.a6078a36.js.map",
+    "main.2fe375ab.js.map": "/portfolio/static/js/main.2fe375ab.js.map",
     "453.0b72f93f.chunk.js.map": "/portfolio/static/js/453.0b72f93f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab5a98b1.css",
-    "static/js/main.a6078a36.js"
+    "static/js/main.2fe375ab.js"
   ]
 }
